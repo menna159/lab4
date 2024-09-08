@@ -27,9 +27,9 @@ class HomePage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
                     const  Padding(
-                        padding:  EdgeInsets.all(8.0),
+                        padding:  EdgeInsets.all(12.0),
                         child: Text(" Click to roll",style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 23,
                           color: Colors.white,
                           fontWeight:FontWeight.w700
                         ),),
@@ -37,7 +37,7 @@ class HomePage extends StatelessWidget {
                          Padding(
                            padding: const EdgeInsets.only(bottom:15.0),
                            child: Text(" Sum is ${state.data[2]}",style:const TextStyle(
-                                                 fontSize: 20,
+                                                 fontSize: 23,
                                                  color: Colors.white,
                                                  fontWeight:FontWeight.w500
                                                )),
@@ -70,7 +70,8 @@ class HomePage extends StatelessWidget {
                                 )
                               ) 
                                           ,child:const Text("Roll",style:TextStyle(
-                                            fontSize:15
+                                            fontSize:15,
+                                            fontWeight:FontWeight.w400
                                           ))),
                             ),
                           )
